@@ -1,0 +1,38 @@
+.home {
+  padding: 1rem;
+}
+
+.video-section {
+  width: min(90vw, 1100px);
+  margin: 0 auto;
+}
+
+.video-section video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+}
+
+.message-section {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.message-button {
+  display: inline-block;
+
+  padding: 16px 32px;
+
+  color: white;
+  background-color: #ff5fa2;
+
+  border-radius: 12px;
+
+  font-size: 1.2rem;
+  transition: transform 0.2s;
+}
+
+.message-button:hover {
+  transform: scale(1.05);
+}
